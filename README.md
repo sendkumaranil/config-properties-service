@@ -3,6 +3,7 @@ This is Config Property service by using config server of spring config cloud
 
 # Agenda
 When changes to the property then no need to build the dependent client application.
+<p>Use Centralized property Repository in order to manage properties</p>
 
 # Use Case
 <h5>config-property-service<h5>
