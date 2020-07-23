@@ -24,10 +24,10 @@ When changes to the property then no need to build the dependent client applicat
           #Note: here my home dir is /Users/anilkumar/
  </pre>
  <h5> Create a new directory my_properties under the path ${HOME} and run the command git init </h5>
- <p>Below is the screen shot for the terminal command</p>
  <p>Create new property file of dependent app or service (here I have a dependent service is orderapp)</p>
  <p>touch orderapp.properties</p>
  <p>add the properties of the orderapp service and commit the property file</p>
+ <p>Below is the screen shot for the terminal command</p>
  
  
  <h5>orderapp service</h5>
