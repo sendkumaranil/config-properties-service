@@ -29,6 +29,7 @@ When changes to the property then no need to build the dependent client applicat
  <p>add the properties of the orderapp service and commit the property file</p>
  <p>Below is the screen shot for the terminal command</p>
  
+ ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/property-repos-terminal.png)
  
  <h5>orderapp service</h5>
  <p>This is independent different service or app which will have its own related properties</p>
@@ -67,13 +68,20 @@ When changes to the property then no need to build the dependent client applicat
  
  <p>Below is the screen shot of before property change</p>
  
+ ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/order-app-dbconnections-beforechange.png)
  
  <p>Now change the orderapp db password in the centralized property repos below is the screen shot</p>
+ 
+ ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/change-orderapp-dbpassword.png)
  
  <p>Now after change the centralized properties, we need to refresh the orderapp and we will do by actuator/refresh</p>
  <p>Below is the screen shot which refresh the orderapp by POST method using postman</p>
  
+ ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/refresh-orderapp-by-POST-postman.png)
+ 
  <p>After changes the property No need to restart the configuration-service and orderapp service just hit the orderapp service url</p>
  <p>Below is the screen shots of the after property changes</p>
+ 
+ ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/after-password-change.png)
  
  
