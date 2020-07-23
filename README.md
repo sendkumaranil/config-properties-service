@@ -1,10 +1,10 @@
 # config-properties-service
 This is Config Property service by using config server of spring config cloud
 
-#Agenda
+# Agenda
 When changes to the property then no need to build the dependent client application.
 
-#Use Case
+# Use Case
 <h5>config-property-service<h5>
 <p> Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. With the Config Server, you have a central place to manage external properties for applications across all environments. The concepts on both client and server map identically to the Spring Environment and PropertySource abstractions</p>
 <p>The default strategy for locating property sources is to clone a git repository at spring.cloud.config.server.git.uri , this is basically the Github property repository but in this example we are using local git file system instead github remote repos</p>
