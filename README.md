@@ -11,11 +11,12 @@ When changes to the property then no need to build the dependent client applicat
 <p>The default strategy for locating property sources is to clone a git repository at spring.cloud.config.server.git.uri , this is basically the Github property repository but in this example we are using local git file system instead github remote repos</p>
 
 <p>We need to add the following spring boot dependency<p>
- <pre>
-          <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-          </dependency>
+ <pre>``
+ 
+             <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-config</artifactId>
+             </dependency>
  </pre>
  <p> We need to add the following property in the application.property of configuration-service</p>
  <pre>
@@ -45,7 +46,7 @@ When changes to the property then no need to build the dependent client applicat
       spring.cloud.config.uri=http://localhost:9191
  </pre>
  <p>We will add actuator and cloud config dependencies to the orderapp pom file</p>
- <pre>```
+ <pre>``
  
           <dependency>
             <groupId>org.springframework.boot</groupId>
