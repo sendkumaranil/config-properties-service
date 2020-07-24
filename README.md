@@ -64,8 +64,12 @@ When changes to the property then no need to build the dependent client applicat
     #this is actuator property, in real scenarios we cannot provide * here for security reason
     management.endpoints.web.exposure.include=*
  </pre>
+ 
+ <h5>shipment service (similarly of orderapp)</h5>
+ 
  <p>Start the configuration-service </p>
  <p>Start the orderapp service</p>
+ <p>Start the shipment service</p>
  
  <p>Below is the screen shot of before property change</p>
  
