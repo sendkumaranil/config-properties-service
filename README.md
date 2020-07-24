@@ -75,6 +75,8 @@ When changes to the property then no need to build the dependent client applicat
  
  ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/order-app-dbconnections-beforechange.png)
  
+ ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/shipment-url.png)
+ 
  <p>Now change the orderapp db password in the centralized property repos below is the screen shot</p>
  
  ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/change-orderapp-dbpassword.png)
