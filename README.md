@@ -45,19 +45,20 @@ When changes to the property then no need to build the dependent client applicat
       spring.cloud.config.uri=http://localhost:9191
  </pre>
  <p>We will add actuator and cloud config dependencies to the orderapp pom file</p>
- <pre>
-        <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-          <groupId>org.springframework.cloud</groupId>
-          <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
+ <pre>```
+ 
+          <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+          </dependency>
+          <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+          </dependency>
+          <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+          </dependency>
  </pre>
  <p>Now we will add following line to the application.properties</p>
  <pre>
