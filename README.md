@@ -86,6 +86,10 @@ When changes to the property then no need to build the dependent client applicat
  
  ![alt tag](https://github.com/sendkumaranil/config-properties-service/blob/master/refresh-orderapp-by-POST-postman.png)
  
+ OR
+ <p> Run the below url to refresh the orderapp </p>
+ <p> http://localhost:8080/refresh </p>
+ 
  <p>After changes the property No need to restart the configuration-service and orderapp service just hit the orderapp service url</p>
  <p>Below is the screen shots of the after property changes</p>
  
