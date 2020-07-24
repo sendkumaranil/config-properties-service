@@ -62,7 +62,9 @@ When changes to the property then no need to build the dependent client applicat
  <p>Now we will add following line to the application.properties</p>
  <pre>
     #this is actuator property, in real scenarios we cannot provide * here for security reason
-    management.endpoints.web.exposure.include=*
+    management.endpoints.web.base-path=/orderapp
+    management.endpoint.refresh.enabled=true
+    management.endpoints.web.exposure.include=health,info,refresh
  </pre>
  
  <h5>shipment service (similarly of orderapp)</h5>
